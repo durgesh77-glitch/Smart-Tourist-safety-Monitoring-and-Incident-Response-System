@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Tourist Gaurd — Smart Tourist Safety & Incident Response</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styling.css">
+</head>
+<body>
+
+<header>
+  <nav>
+    <div class="brand"><span class="dot"></span>Tourist Guard</div>
+    <div class="navlinks">
+      <a href="#platform">Platform</a>
+      <a href="#how">How it works</a>
+      <a href="#console">For authorities</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <div class="navcta">
+      <a class="btn btn-primary" href="#loginpage">Login/Register</a>
+    </div>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <div class="eyebrow">Tourist safety & incident response platform</div>
+      <h1>Know a traveler is safe before you have to ask.</h1>
+      <p class="lead">Tourist Gaurd gives tourism boards, police and park authorities one live view of every visitor on a circuit — geofenced alerts, a one-tap SOS, and a response console that turns a distress signal into a dispatched team in minutes.</p>
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="#contact">Request a demo</a>
+        <a class="btn btn-ghost" href="#how">See how it works</a>
+      </div>
+    </div>
+    <div class="mapcard">
+      <div class="mapcard-head"><span>Manali–Rohtang circuit</span><span class="live mono">● live</span></div>
+      <div class="mapview">
+        <div class="geofence"></div>
+        <div class="pin" style="top:30%; left:20%;"></div>
+        <div class="pin" style="top:55%; left:60%;"></div>
+        <div class="pin" style="top:70%; left:30%;"></div>
+        <div class="pin alert" style="top:42%; left:46%;"></div>
+        <div class="toast"><b>SOS · ID TZ-2291</b><br>Off-route, 6.4km from checkpost — team dispatched, ETA 7 min</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="platform">
+  <div class="wrap">
+    <h2 style="font-size:clamp(1.5rem,2.6vw,2rem);">Remote routes make rescue a race against time</h2>
+    <p class="kicker">Most tourist safety gaps aren't caused by carelessness — they're caused by systems that can't see a traveler until something has already gone wrong.</p>
+    <div class="problem-grid">
+      <div class="pcard">
+        <h3>Patchy network coverage</h3>
+        <p>Treks, forest trails and heritage sites often sit outside mobile range, so a distress call reaches help only after a dangerous delay.</p>
+      </div>
+      <div class="pcard">
+        <h3>Manual ID and permits</h3>
+        <p>Paper permits and photocopied IDs slow down checkposts, and give rescue teams almost nothing to work with when a tourist goes missing.</p>
+      </div>
+      <div class="pcard">
+        <h3>Fragmented response</h3>
+        <p>Police, park rangers, hotels and hospitals each keep their own records, with no shared view of who is where when an incident starts.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2 style="font-size:clamp(1.5rem,2.6vw,2rem);">One platform, from check-in to case closed</h2>
+    <div class="feat-grid">
+      <div class="fcard">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="1.6"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 8h8M8 12h8M8 16h4"/></svg>
+        <h3>Digital tourist ID</h3>
+        <p>Issued at the entry point and anchored on a blockchain ledger — tamper-proof, linked to itinerary and emergency contacts, verifiable offline at any checkpost.</p>
+      </div>
+      <div class="fcard">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="1.6"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="2.2"/></svg>
+        <h3>Live tracking & geofencing</h3>
+        <p>Opt-in location draws safe-zone boundaries around trails and monuments. Crossing one, or going quiet too long, triggers an automatic check.</p>
+      </div>
+      <div class="fcard">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="1.6"><path d="M12 3v6M12 21c4-3 7-7 7-11a7 7 0 10-14 0c0 4 3 8 7 11z"/></svg>
+        <h3>One-tap SOS</h3>
+        <p>A wearable band or the app's SOS button sends exact location and last known route to the nearest response unit, no signal search required.</p>
+      </div>
+      <div class="fcard">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="1.6"><path d="M4 18l4-8 4 5 3-6 5 9"/></svg>
+        <h3>AI anomaly detection</h3>
+        <p>Flags patterns worth a look — a tourist off-route after dark, a check-in missed for hours, or a cluster of alerts from one area.</p>
+      </div>
+      <div class="fcard">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="1.6"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M3 9h18M8 4v5"/></svg>
+        <h3>Unified response console</h3>
+        <p>Police, tourism officers and hospitals work from the same live map and case file, with tasks assigned and tracked in one workflow.</p>
+      </div>
+      <div class="fcard">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="1.6"><path d="M9 12l2 2 4-4M5 4h14v16l-7-4-7 4V4z"/></svg>
+        <h3>Automated incident record</h3>
+        <p>Every SOS drafts an E-FIR with location, timeline and ID details, ready for an officer to review and confirm — no re-keying at the desk.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="how">
+  <div class="wrap">
+    <h2 style="font-size:clamp(1.5rem,2.6vw,2rem);">From registration to resolution</h2>
+    <div class="steps">
+      <div class="step"><div class="num">01</div><h3>Register at entry</h3><p>A QR scan or kiosk visit records ID, itinerary and an emergency contact in under two minutes.</p></div>
+      <div class="step"><div class="num">02</div><h3>Track the journey</h3><p>Check-ins and geofence alerts run quietly in the background for the length of the trip.</p></div>
+      <div class="step"><div class="num">03</div><h3>Respond to signals</h3><p>An SOS or anomaly opens a case in the console with the tourist's last known location.</p></div>
+      <div class="step"><div class="num">04</div><h3>Close the loop</h3><p>Field teams update status live; the tourist and their contacts get a resolution notice.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="console">
+  <div class="wrap">
+    <h2 style="font-size:clamp(1.5rem,2.6vw,2rem);">Built for the response room</h2>
+    <p class="kicker">A single console for dispatchers — every active case, its status, and where the nearest team stands.</p>
+    <div class="console">
+      <div class="console-top"><span>Active & recent cases</span><span class="mono">Manali sector · today</span></div>
+      <table>
+        <tr><th>Case</th><th>Tourist ID</th><th>Location</th><th>Status</th><th>Response</th></tr>
+        <tr><td class="mono">#4471</td><td class="mono">TZ-2291</td><td>Rohtang trail, 6.4km off-route</td><td><span class="tag active">Active</span></td><td>ETA 7 min</td></tr>
+        <tr><td class="mono">#4468</td><td class="mono">TZ-2104</td><td>Solang meadow checkpost</td><td><span class="tag resolved">Resolved</span></td><td>6 min</td></tr>
+        <tr><td class="mono">#4460</td><td class="mono">TZ-1988</td><td>Old Manali river trail</td><td><span class="tag resolved">Resolved</span></td><td>9 min</td></tr>
+      </table>
+    </div>
+    <div class="stat-row">
+      <div class="stat"><div class="num">&lt;8 min</div><p>Target response time from SOS to a team dispatched, down from the ~40&ndash;60 min typical of manual coordination.</p></div>
+      <div class="stat"><div class="num">100%</div><p>Of registered tourists carry a verifiable digital ID, readable offline at any checkpost.</p></div>
+      <div class="stat"><div class="num">1 console</div><p>Replaces separate police, ranger and hospital registers with one shared case view.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="wrap">
+    <div class="cta-band">
+      <h2>Bring Tourist Guard to your tourism circuit</h2>
+      <p>We work with tourism departments, police units and park authorities to pilot geofencing, digital IDs and the response console on a single route before scaling further.</p>
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="mailto:hello@suraksha.example">Request a demo</a>
+        <a class="btn btn-ghost" href="mailto:hello@suraksha.example">Talk to the team</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap foot-row">
+    <div><span class="brand" style="font-size:1rem;"><span class="dot"></span>Tourist Guard</span></div>
+    <div>Smart tourist safety & incident response system</div>
+  </div>
+</footer>
+
+</body>
+</html>
